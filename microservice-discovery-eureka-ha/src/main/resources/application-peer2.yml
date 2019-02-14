@@ -1,0 +1,11 @@
+server:
+  port: 8762
+eureka:
+  instance:
+    #指定当profile=peer2时，主机名是peer2
+    hostname: peer2
+  client:
+    serviceUrl:
+      #将自己注册到peer1这个Eureka上面去
+      defaultZone: http://peer1:8761/eureka/
+

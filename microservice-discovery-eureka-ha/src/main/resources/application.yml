@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: microservice-discovery-eureka-ha
+  #Ö¸¶¨profile=peer1
+  profiles: peer1
