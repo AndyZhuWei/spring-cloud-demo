@@ -7,7 +7,7 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.web.client.RestTemplate;
 
 @SpringBootApplication
-public class MicroserviceConsumerMovieApplication {
+public class MicroserviceConsumerMovieWithoutEurekaApplication {
 
     /**
      * @Bean 是一个注解方法，作用是实例化一个Bean并使用该方法的名称命名
@@ -20,7 +20,7 @@ public class MicroserviceConsumerMovieApplication {
     }
 
     public static void main(String[] args) {
-        SpringApplication.run(MicroserviceConsumerMovieApplication.class, args);
+        SpringApplication.run(MicroserviceConsumerMovieWithoutEurekaApplication.class, args);
     }
 
 }
